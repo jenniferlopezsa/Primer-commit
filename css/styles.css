@@ -1,0 +1,37 @@
+/* Estilo replicable: cambiar aca modifica TODOS los productos (punto 9) */
+.producto-card {
+  height: 100%;
+  padding: 20px;
+  border: 1px solid #d9c7b0;
+  border-radius: 8px;
+  background-color: #fffaf3;
+}
+.producto-card h3 {
+  color: #6b3e1f;
+  font-size: 1.3rem;
+}
+.producto-card p {
+  color: #4a4a4a;
+}
+.producto-card .btn {
+  background-color: #6b3e1f;
+  color: #fff;
+}
+.producto-card .btn:hover {
+  background-color: #4d2b14;
+}
+
+.seccion-caracteristicas h2 {
+  color: #6b3e1f;
+  font-size: 1.4rem;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 30px 0;
+  background-color: #3b2412;
+  color: #f1e6d8;
+}
+footer a {
+  color: #f1e6d8;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Café del Valle</title>
+  <!-- Punto 3: referencias a node_modules -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Punto 3: jumbotron con el titulo del proyecto -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Café del Valle</h1>
+      <p class="lead">Café de especialidad, tostado en pequeños lotes.</p>
+    </div>
+  </div>
+
+  <!-- Punto 4: container con 3 parrafos y un titulo cada uno -->
+  <div class="container seccion-caracteristicas">
+    <h2>Origen directo</h2>
+    <p>Trabajamos con productores de la región y compramos el grano sin intermediarios.</p>
+    <h2>Tostado artesanal</h2>
+    <p>Tostamos cada lote por separado para resaltar el aroma y el sabor de cada origen.</p>
+    <h2>Envío fresco</h2>
+    <p>Despachamos dentro de las 48 horas del tostado, para que lo recibas en su mejor momento.</p>
+  </div>
+
+  <!-- Punto 5 y 6: lista de productos con grilla (row es display:flex en Bootstrap 4) -->
+  <div class="container mt-5">
+    <h2 class="mb-4">Nuestros productos</h2>
+    <div class="row d-flex">
+      <div class="col-12 col-sm-6 col-lg-4 mb-4">
+        <div class="producto-card">
+          <h3>Café en grano</h3>
+          <p>Bolsa de 500 g, tueste medio, notas a chocolate.</p>
+          <a href="#" class="btn">Comprar</a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 mb-4">
+        <div class="producto-card">
+          <h3>Café molido</h3>
+          <p>Bolsa de 250 g, molienda para filtro.</p>
+          <a href="#" class="btn">Comprar</a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 mb-4">
+        <div class="producto-card">
+          <h3>Cápsulas</h3>
+          <p>Caja de 10 unidades, compatibles con máquinas de uso común.</p>
+          <a href="#" class="btn">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Puntos 7, 8 y 10: footer con address y alineaciones izquierda / centro / derecha -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4 text-left">
+          <h5>Dónde estamos</h5>
+          <address>
+            Café del Valle<br>
+            Calle Principal 123<br>
+            Trujillo, Colón<br>
+            Tel: <a href="tel:+50400000000">+504 0000-0000</a>
+          </address>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          <h5>Seguinos</h5>
+          <p>
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">WhatsApp</a>
+          </p>
+        </div>
+        <div class="col-12 col-md-4 text-right">
+          <h5>Horarios</h5>
+          <p>Lunes a sábado, de 8 a 18 h<br>&copy; 2026 Café del Valle</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
